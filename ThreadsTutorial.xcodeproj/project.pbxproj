@@ -14,6 +14,7 @@
 		BEB6ADE82BC1E1B6003A0941 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADE72BC1E1B6003A0941 /* LoginView.swift */; };
 		BEB6ADEA2BC1F851003A0941 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADE92BC1F851003A0941 /* RegistrationView.swift */; };
 		BEB6ADED2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADEC2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift */; };
+		BEB6ADEF2BC1FD6B003A0941 /* ThreadsButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADEE2BC1FD6B003A0941 /* ThreadsButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BEB6ADE72BC1E1B6003A0941 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BEB6ADE92BC1F851003A0941 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		BEB6ADEC2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
+		BEB6ADEE2BC1FD6B003A0941 /* ThreadsButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB6ADEC2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift */,
+				BEB6ADEE2BC1FD6B003A0941 /* ThreadsButtonModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB6ADEF2BC1FD6B003A0941 /* ThreadsButtonModifier.swift in Sources */,
 				BEB6ADE82BC1E1B6003A0941 /* LoginView.swift in Sources */,
 				BEB6ADD12BC1DF5A003A0941 /* ContentView.swift in Sources */,
 				BEB6ADED2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift in Sources */,
