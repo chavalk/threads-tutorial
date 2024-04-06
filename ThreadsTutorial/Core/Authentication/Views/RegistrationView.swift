@@ -25,32 +25,16 @@ struct RegistrationView: View {
             
             VStack {
                 TextField("Enter your email", text: $email)
-                    .font(.subheadline)
-                    .padding(12)
-                    .background(Color(.systemGray6))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .padding(.horizontal, 24)
+                    .modifier(ThreadsTextFieldModifier())
                 
                 SecureField("Enter your password", text: $password)
-                    .font(.subheadline)
-                    .padding(12)
-                    .background(Color(.systemGray6))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .padding(.horizontal, 24)
+                    .modifier(ThreadsTextFieldModifier())
                 
                 TextField("Enter your full name", text: $fullName)
-                    .font(.subheadline)
-                    .padding(12)
-                    .background(Color(.systemGray6))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .padding(.horizontal, 24)
+                    .modifier(ThreadsTextFieldModifier())
                 
                 TextField("Enter your username", text: $username)
-                    .font(.subheadline)
-                    .padding(12)
-                    .background(Color(.systemGray6))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .padding(.horizontal, 24)
+                    .modifier(ThreadsTextFieldModifier())
             }
             
             Button(action: {
