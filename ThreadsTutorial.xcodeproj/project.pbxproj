@@ -51,8 +51,12 @@
 		BEB6ADCD2BC1DF5A003A0941 /* ThreadsTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */,
-				BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */,
+				BEB6ADE32BC1E08A003A0941 /* App */,
+				BEB6ADE22BC1E088003A0941 /* Core */,
+				BEB6ADE12BC1E086003A0941 /* Extensions */,
+				BEB6ADE02BC1E083003A0941 /* Model */,
+				BEB6ADDF2BC1E080003A0941 /* Services */,
+				BEB6ADDC2BC1E067003A0941 /* Utils */,
 				BEB6ADD22BC1DF5D003A0941 /* Assets.xcassets */,
 				BEB6ADD42BC1DF5D003A0941 /* Preview Content */,
 			);
@@ -65,6 +69,74 @@
 				BEB6ADD52BC1DF5D003A0941 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEB6ADDC2BC1E067003A0941 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BEB6ADDF2BC1E080003A0941 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEB6ADE02BC1E083003A0941 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEB6ADE12BC1E086003A0941 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEB6ADE22BC1E088003A0941 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6ADE52BC1E107003A0941 /* Authentication */,
+				BEB6ADE42BC1E104003A0941 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BEB6ADE32BC1E08A003A0941 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BEB6ADE42BC1E104003A0941 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BEB6ADE52BC1E107003A0941 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6ADE62BC1E15A003A0941 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BEB6ADE62BC1E15A003A0941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
