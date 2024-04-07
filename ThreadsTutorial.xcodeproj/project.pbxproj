@@ -33,6 +33,7 @@
 		BEB6AE232BC33D89003A0941 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEB6AE222BC33D89003A0941 /* GoogleService-Info.plist */; };
 		BEB6AE272BC345BB003A0941 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE262BC345BB003A0941 /* RegistrationViewModel.swift */; };
 		BEB6AE292BC352C1003A0941 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE282BC352C1003A0941 /* AuthService.swift */; };
+		BEB6AE2D2BC36438003A0941 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		BEB6AE222BC33D89003A0941 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEB6AE262BC345BB003A0941 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		BEB6AE282BC352C1003A0941 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +174,8 @@
 		BEB6ADE42BC1E104003A0941 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */,
+				BEB6AE2B2BC3640A003A0941 /* View */,
+				BEB6AE2A2BC36407003A0941 /* ViewModel */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -345,6 +348,22 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		BEB6AE2A2BC36407003A0941 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEB6AE2B2BC3640A003A0941 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,6 +448,7 @@
 				BEB6AE272BC345BB003A0941 /* RegistrationViewModel.swift in Sources */,
 				BEB6AE162BC31585003A0941 /* EditProfileView.swift in Sources */,
 				BEB6ADFE2BC22DD0003A0941 /* CreateThreadView.swift in Sources */,
+				BEB6AE2D2BC36438003A0941 /* ContentViewModel.swift in Sources */,
 				BEB6ADF62BC22CC7003A0941 /* FeedView.swift in Sources */,
 				BEB6AE122BC30267003A0941 /* ProfileThreadFilter.swift in Sources */,
 				BEB6AE292BC352C1003A0941 /* AuthService.swift in Sources */,
