@@ -9,13 +9,6 @@ import SwiftUI
 
 struct CurrentUserProfileView: View {
     @StateObject var viewModel = CurrentUserProfileViewModel()
-    @State private var selectedFilter: ProfileThreadFilter = .threads
-    @Namespace var animation
-    
-    private var filterBarWidth: CGFloat {
-        let count = CGFloat(ProfileThreadFilter.allCases.count)
-        return UIScreen.main.bounds.width / count - 16
-    }
     
     private var currentUser: User? {
         return viewModel.currentUser
@@ -31,50 +24,21 @@ struct CurrentUserProfileView: View {
                     Button(action: {
                         
                     }, label: {
-                        Text("Follow")
+                        Text("Edit Profile")
                             .font(.subheadline)
                             .fontWeight(.semibold)
-                            .foregroundStyle(.white)
+                            .foregroundStyle(.black)
                             .frame(width: 352, height: 32)
-                            .background(.black)
+                            .background(.white)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
+                            .overlay {
+                                RoundedRectangle(cornerRadius: 8)
+                                    .stroke(Color(.systemGray4), lineWidth: 1)
+                            }
                     })
                     
                     // User content list view
-                    VStack {
-                        HStack {
-                            ForEach(ProfileThreadFilter.allCases) { filter in
-                                VStack {
-                                    Text(filter.title)
-                                        .font(.subheadline)
-                                        .fontWeight(selectedFilter == filter ? .semibold : .regular)
-                                    
-                                    if selectedFilter == filter {
-                                        Rectangle()
-                                            .foregroundStyle(.black)
-                                            .frame(width: filterBarWidth, height: 1)
-                                            .matchedGeometryEffect(id: "item", in: animation)
-                                    } else {
-                                        Rectangle()
-                                            .foregroundStyle(.clear)
-                                            .frame(width: filterBarWidth, height: 1)
-                                    }
-                                }
-                                .onTapGesture {
-                                    withAnimation(.spring()) {
-                                        selectedFilter = filter
-                                    }
-                                }
-                            }
-                        }
-                        
-                        LazyVStack {
-                            ForEach(0 ... 10, id: \.self) { thread in
-                                ThreadCell()
-                            }
-                        }
-                    }
-                    .padding(.vertical, 8)
+                    UserContentListView()
                 }
             }
             .toolbar {
