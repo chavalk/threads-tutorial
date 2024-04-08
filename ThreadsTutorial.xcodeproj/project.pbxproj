@@ -34,6 +34,7 @@
 		BEB6AE272BC345BB003A0941 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE262BC345BB003A0941 /* RegistrationViewModel.swift */; };
 		BEB6AE292BC352C1003A0941 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE282BC352C1003A0941 /* AuthService.swift */; };
 		BEB6AE2D2BC36438003A0941 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */; };
+		BEB6AE2F2BC36AE0003A0941 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE2E2BC36AE0003A0941 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		BEB6AE262BC345BB003A0941 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		BEB6AE282BC352C1003A0941 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BEB6AE2E2BC36AE0003A0941 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +337,7 @@
 		BEB6AE242BC34570003A0941 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BEB6AE2E2BC36AE0003A0941 /* LoginViewModel.swift */,
 				BEB6AE262BC345BB003A0941 /* RegistrationViewModel.swift */,
 			);
 			path = ViewModel;
@@ -464,6 +467,7 @@
 				BEB6ADED2BC1FB9B003A0941 /* ThreadsTextFieldModifier.swift in Sources */,
 				BEB6ADCF2BC1DF5A003A0941 /* ThreadsTutorialApp.swift in Sources */,
 				BEB6ADEA2BC1F851003A0941 /* RegistrationView.swift in Sources */,
+				BEB6AE2F2BC36AE0003A0941 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
