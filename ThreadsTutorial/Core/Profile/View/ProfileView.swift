@@ -22,32 +22,7 @@ struct ProfileView: View {
         ScrollView(showsIndicators: false) {
             // Bio and stats
             VStack(spacing: 20) {
-                HStack(alignment: .top) {
-                    VStack(alignment: .leading, spacing: 12) {
-                        // Full name and username
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(user.fullName)
-                                .font(.title2)
-                                .fontWeight(.semibold)
-                            
-                            Text(user.username)
-                                .font(.subheadline)
-                        }
-                        
-                        if let bio = user.bio {
-                            Text(bio)
-                                .font(.footnote)
-                        }
-                        
-                        Text("2 followers")
-                            .font(.caption)
-                            .foregroundStyle(.gray)
-                    }
-                    
-                    Spacer()
-                    
-                    CircularProfileImageView()
-                }
+                ProfileHeaderView(user: user)
                 
                 Button(action: {
                     
