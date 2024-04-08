@@ -36,6 +36,8 @@
 		BEB6AE2D2BC36438003A0941 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */; };
 		BEB6AE2F2BC36AE0003A0941 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE2E2BC36AE0003A0941 /* LoginViewModel.swift */; };
 		BEB6AE312BC37287003A0941 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE302BC37287003A0941 /* User.swift */; };
+		BEB6AE332BC39A03003A0941 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE322BC39A03003A0941 /* UserService.swift */; };
+		BEB6AE362BC3A0CF003A0941 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6AE352BC3A0CF003A0941 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		BEB6AE2C2BC36438003A0941 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		BEB6AE2E2BC36AE0003A0941 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		BEB6AE302BC37287003A0941 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BEB6AE322BC39A03003A0941 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		BEB6AE352BC3A0CF003A0941 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 		BEB6ADDF2BC1E080003A0941 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BEB6AE322BC39A03003A0941 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 		BEB6AE032BC22F6F003A0941 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BEB6AE342BC3A0B7003A0941 /* ViewModel */,
 				BEB6AE132BC31568003A0941 /* EditProfile */,
 				BEB6AE0E2BC30227003A0941 /* Model */,
 				BEB6AE042BC22F8A003A0941 /* View */,
@@ -368,6 +374,14 @@
 				BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BEB6AE342BC3A0B7003A0941 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEB6AE352BC3A0CF003A0941 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,7 +470,9 @@
 				BEB6ADFE2BC22DD0003A0941 /* CreateThreadView.swift in Sources */,
 				BEB6AE2D2BC36438003A0941 /* ContentViewModel.swift in Sources */,
 				BEB6ADF62BC22CC7003A0941 /* FeedView.swift in Sources */,
+				BEB6AE362BC3A0CF003A0941 /* ProfileViewModel.swift in Sources */,
 				BEB6AE122BC30267003A0941 /* ProfileThreadFilter.swift in Sources */,
+				BEB6AE332BC39A03003A0941 /* UserService.swift in Sources */,
 				BEB6AE292BC352C1003A0941 /* AuthService.swift in Sources */,
 				BEB6ADFA2BC22D72003A0941 /* ExploreView.swift in Sources */,
 				BEB6AE062BC22F9E003A0941 /* ProfileView.swift in Sources */,
