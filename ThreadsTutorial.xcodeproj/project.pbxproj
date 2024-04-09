@@ -17,6 +17,7 @@
 		BE2F679C2BC4F4F500DAC335 /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F679B2BC4F4F500DAC335 /* ThreadService.swift */; };
 		BE2F679F2BC5027900DAC335 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F679E2BC5027900DAC335 /* FeedViewModel.swift */; };
 		BE2F67A32BC512C700DAC335 /* UserContentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F67A22BC512C700DAC335 /* UserContentListViewModel.swift */; };
+		BE2F67A52BC515F900DAC335 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F67A42BC515F900DAC335 /* Timestamp.swift */; };
 		BEB6ADCF2BC1DF5A003A0941 /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */; };
 		BEB6ADD12BC1DF5A003A0941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */; };
 		BEB6ADD32BC1DF5D003A0941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB6ADD22BC1DF5D003A0941 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		BE2F679B2BC4F4F500DAC335 /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
 		BE2F679E2BC5027900DAC335 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BE2F67A22BC512C700DAC335 /* UserContentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListViewModel.swift; sourceTree = "<group>"; };
+		BE2F67A42BC515F900DAC335 /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
 		BEB6ADCB2BC1DF5A003A0941 /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
 		BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB6AE3A2BC49386003A0941 /* PreviewProvider.swift */,
+				BE2F67A42BC515F900DAC335 /* Timestamp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -319,7 +322,6 @@
 			isa = PBXGroup;
 			children = (
 				BEB6ADF52BC22CC7003A0941 /* FeedView.swift */,
-				BEB6AE072BC23193003A0941 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -398,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB6AE0A2BC2416E003A0941 /* CircularProfileImageView.swift */,
+				BEB6AE072BC23193003A0941 /* ThreadCell.swift */,
 				BEB6AE0C2BC241FD003A0941 /* UserCell.swift */,
 			);
 			path = Components;
@@ -598,6 +601,7 @@
 				BE2F679A2BC4F4D900DAC335 /* CreateThreadViewModel.swift in Sources */,
 				BEB6ADEF2BC1FD6B003A0941 /* ThreadsButtonModifier.swift in Sources */,
 				BEB6ADF22BC21183003A0941 /* ThreadsTabView.swift in Sources */,
+				BE2F67A52BC515F900DAC335 /* Timestamp.swift in Sources */,
 				BE2F678C2BC4B46000DAC335 /* UserContentListView.swift in Sources */,
 				BEB6AE0B2BC2416E003A0941 /* CircularProfileImageView.swift in Sources */,
 				BEB6AE0D2BC241FD003A0941 /* UserCell.swift in Sources */,
