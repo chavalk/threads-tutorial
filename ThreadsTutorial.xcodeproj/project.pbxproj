@@ -15,6 +15,7 @@
 		BE2F67972BC4F3CB00DAC335 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F67962BC4F3CB00DAC335 /* Thread.swift */; };
 		BE2F679A2BC4F4D900DAC335 /* CreateThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F67992BC4F4D900DAC335 /* CreateThreadViewModel.swift */; };
 		BE2F679C2BC4F4F500DAC335 /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F679B2BC4F4F500DAC335 /* ThreadService.swift */; };
+		BE2F679F2BC5027900DAC335 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2F679E2BC5027900DAC335 /* FeedViewModel.swift */; };
 		BEB6ADCF2BC1DF5A003A0941 /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */; };
 		BEB6ADD12BC1DF5A003A0941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */; };
 		BEB6ADD32BC1DF5D003A0941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB6ADD22BC1DF5D003A0941 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		BE2F67962BC4F3CB00DAC335 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		BE2F67992BC4F4D900DAC335 /* CreateThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadViewModel.swift; sourceTree = "<group>"; };
 		BE2F679B2BC4F4F500DAC335 /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
+		BE2F679E2BC5027900DAC335 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		BEB6ADCB2BC1DF5A003A0941 /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB6ADCE2BC1DF5A003A0941 /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
 		BEB6ADD02BC1DF5A003A0941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 			isa = PBXGroup;
 			children = (
 				BE2F67992BC4F4D900DAC335 /* CreateThreadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2F679D2BC5026D00DAC335 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F679E2BC5027900DAC335 /* FeedViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -281,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB6ADF42BC22CA3003A0941 /* View */,
+				BE2F679D2BC5026D00DAC335 /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -546,6 +557,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2F679F2BC5027900DAC335 /* FeedViewModel.swift in Sources */,
 				BEB6AE022BC22EAA003A0941 /* ActivityView.swift in Sources */,
 				BEB6AE272BC345BB003A0941 /* RegistrationViewModel.swift in Sources */,
 				BEB6AE162BC31585003A0941 /* EditProfileView.swift in Sources */,
